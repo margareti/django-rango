@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+    <head>
+        <title>About Page</title>
+        <style>
+			img {
+				max-width:400px;
+			}
+        </style>
+    </head>
+
+    <body>
+        <h1>Rango says...</h1>
+        This is the <strong>{{ about_msg }}</strong><br />
+        <a href="/rango/">Home</a><br />
+        <img src="{% static 'rango.jpg' %}" alt="Rango image">
+    </body>
+
+</html>
+
+
+
